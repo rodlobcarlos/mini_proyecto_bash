@@ -51,3 +51,8 @@ El script recopila automáticamente las siguientes métricas del sistema:
   ```bash
   cat informe.txt
   ```  
+
+--- 
+
+👤 Autor
+Carlos Rodríguez Lobato - @rodlobcarlos
