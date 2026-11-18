@@ -6,16 +6,16 @@ Núcleos por socket: 6
 
 === INFORMACION DE LA RAM ===
 MemTotal:       32689696 kB
-MemFree:        16696268 kB
-MemAvailable:   22355436 kB
-Buffers:          243776 kB
+MemFree:        16274048 kB
+MemAvailable:   22051324 kB
+Buffers:          254524 kB
 
 === INFORMACION DEL DISCO ===
 S.ficheros     Tamaño Usados  Disp Uso% Montado en
 tmpfs            3,2G   2,7M  3,2G   1% /run
 efivarfs         256K   156K   96K  62% /sys/firmware/efi/efivars
 /dev/nvme0n1p3   907G   139G  722G  17% /
-tmpfs             16G    54M   16G   1% /dev/shm
+tmpfs             16G    41M   16G   1% /dev/shm
 tmpfs            5,0M      0  5,0M   0% /run/lock
 /dev/nvme0n1p1  1020M   548M  473M  54% /boot/efi
 /dev/nvme0n1p2   4,0G   3,7G  354M  92% /recovery
@@ -367,7 +367,7 @@ Obj:3 http://apt.pop-os.org/proprietary noble InRelease
 Ign:4 https://releases.warp.dev/linux/deb stable InRelease
 Obj:5 http://apt.pop-os.org/release noble InRelease
 Obj:6 https://releases.warp.dev/linux/deb stable Release
-Obj:8 http://apt.pop-os.org/ubuntu noble InRelease
+Obj:7 http://apt.pop-os.org/ubuntu noble InRelease
 Obj:9 http://apt.pop-os.org/ubuntu noble-security InRelease
 Obj:10 http://apt.pop-os.org/ubuntu noble-updates InRelease
 Obj:11 http://apt.pop-os.org/ubuntu noble-backports InRelease
@@ -512,6 +512,7 @@ ubuntu-release-upgrader-core/noble 1.0.0~1793310366~24.04~5294342 amd64 [actuali
 update-manager-core/noble 1.0.0~1793310366~24.04~5294342 amd64 [actualizable desde: 1.0.0~1790821308~24.04~4ee68cf]
 xdg-desktop-portal-cosmic/noble 1.11.0~1794424457~24.04~d205fec amd64 [actualizable desde: 1.11.0~1792525517~24.04~f448ddf]
 xserver-xorg-video-nvidia-595/noble 595.104.02-1pop1~1793823512~24.04~2baaa4a amd64 [actualizable desde: 595.104.02-1pop1~1790944990~24.04~bfd063e]
+
 === INFORMACION DE CONECTIVIDAD ===
 tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
 tcp   LISTEN 0      4096       127.0.0.1:33367      0.0.0.0:*          

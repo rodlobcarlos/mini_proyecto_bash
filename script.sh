@@ -40,6 +40,7 @@
     sudo apt update 
     apt list --upgradable
 
+    echo
     echo "=== INFORMACION DE CONECTIVIDAD ==="
     # Muestra los primeros 15 puertos en escucha y conexiones establecidas en el sistema
     ss -tuln | grep -E "LISTEN|ESTAB" | head -n 15
