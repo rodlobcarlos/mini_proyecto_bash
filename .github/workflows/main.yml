@@ -1,0 +1,16 @@
+name: Bash project push 
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+
+jobs:
+  build-project:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Download code
+        uses: actions/checkout@v4
+
+      - name: Run script
+        run: bash script.sh
